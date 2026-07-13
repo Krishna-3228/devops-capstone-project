@@ -190,5 +190,3 @@ class TestAccountService(TestCase):
         resp = self.client.delete(f"{BASE_URL}/0")
 
         self.assertEqual(resp.status_code, status.HTTP_404_NOT_FOUND)
-
-    
